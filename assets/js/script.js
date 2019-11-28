@@ -6,6 +6,8 @@
       var numberB = document.getElementById('numberB').value;
       /*declaration des variables result qui
       contient le résultat de la division du nombreA par le nombreB*/
-      var result = numberA / numberB
+      var result = numberA % numberB
+      /*on demande pas le résultat d'une division mais le reste de la division,
+      le % permet d'obtenir le reste*/
       alert(result);
     }
